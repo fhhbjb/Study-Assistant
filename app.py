@@ -51,7 +51,7 @@ logging.basicConfig(level=logging.DEBUG)
 # )
 client = OpenAI(
     base_url="https://xiaoai.plus/v1/",
-    api_key="sk-02r8CJ90aT5pot5EODezQmESFKxHtYhosUnOLpwjUy4CquOk", # 确保这里是您自己的有效密钥
+    api_key="sk-02r8CJ90aT5pot5EODezQmESFKxHtYhosUnOLpwjUy4CquO", # 确保这里是您自己的有效密钥
     http_client=httpx.Client(
         base_url="https://xiaoai.plus/v1", # 这个 base_url 要与上面的 base_url 保持一致
         follow_redirects=True,
